@@ -157,6 +157,37 @@ line-height: 22px;
 width: 139px;
 height: 48px;
 }
+
+/* taka buttons design */
+input[type="radio"]
+{
+    display: none;
+    
+}
+
+label{
+    padding: 40px 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+border-radius: 16px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+}
+label:hover{
+    
+    background-color: rgb(198, 228, 214);
+    transform: scale(1.05);
+   border: 1px solid black;
+
+}
+.taka:checked+.btn{
+    background-color: rgb(198, 228, 214);
+}
+
+
 /* --------------------------------------------------------------------------------- */ 
 /* nav styling */
 
@@ -404,10 +435,93 @@ margin-right: 32px;
  .donate-container{
     max-width: 1280px;
     margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
  }
+.dcontainer{
+    display: flex;
+    justify-content: center;
+}
+.dcontainer2{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+}
+
+.donate-description{
+    text-align: center;
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
 
 
  .text-taka{
     max-width: 1352px;
     margin: 0 auto;
  }
+
+ .donate-taka-button{
+    max-width: 1391px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 32px;
+    margin-bottom: 32px;
+ }
+ 
+ .txt-taka{
+    max-width: 1352px;
+    margin: 0 auto;
+ }
+ .txt-taka>input[type="text"]
+ {
+    display: block;
+height: 64px;
+width: 90%;
+margin-top: 32px;
+margin-bottom: 32px;
+color: rgba(14, 14, 14, 0.3);
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+background-color: rgb(255, 255, 255);
+text-align: center; 
+border: none;
+
+}
+
+.dnt{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 471px;
+    margin: 0 auto;
+}
+.donate-now{
+    
+   
+    margin-bottom:80px ;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+height: 56px;
+
+padding: 17px 34px;
+}
