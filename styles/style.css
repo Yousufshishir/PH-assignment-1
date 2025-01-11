@@ -28,16 +28,13 @@
     cursor: pointer;
 }
 
+.card-hover:hover{
+    background-color: transparent;
+    transform: scale(1.05);
+   border: 1px solid black;
+}
 
-.content{ /*from vision part*/
-    padding: 32px ;
-    margin: 24px;
-justify-content: space-between;
-    border-radius: 16px;
-    width: 410.67px ;
-    max-height: 325px;
-    
- }
+
 .vision-icon{/*from vision part*/
     margin-bottom: 35px;
     background-color: transparent;
@@ -279,6 +276,38 @@ border: none;
 /* Requirement 2 */
 /* The Vision of Future section */
 /* main section */
+.content1{ /*from vision part*/
+    padding: 32px ;
+    margin: 24px;
+justify-content: space-between;
+    border-radius: 16px;
+    width: 410.67px ;
+    max-height: 325px;
+    transition:transform .2s ease-in-out ;
+    background-color: rgba(84, 144, 245, 0.2);
+ }
+ .content2{ /*from vision part*/
+    background-color: rgb(198, 228, 214);
+    padding: 32px ;
+    margin: 24px;
+justify-content: space-between;
+    border-radius: 16px;
+    width: 410.67px ;
+    max-height: 325px;
+    transition:transform .2s ease-in-out ;
+    background-color: rgba(84, 144, 245, 0.2);
+ }
+ .content3{ /*from vision part*/
+    background-color: rgb(247, 235, 207);
+    padding: 32px ;
+    margin: 24px;
+justify-content: space-between;
+    border-radius: 16px;
+    width: 410.67px ;
+    max-height: 325px;
+    transition:transform .2s ease-in-out ;
+    background-color: rgba(84, 144, 245, 0.2);
+ }
 .vision-of-future-container{
     max-width: 1280px;
     margin: 0 auto;
@@ -369,3 +398,18 @@ margin-left: 32px;
     rgb(255, 255, 255);
 margin-right: 32px;
 }
+
+
+/* ------------------------------------------------------------------- */
+ /* donate for bangladesh part */
+ /* requirement 4 */
+ .donate-container{
+    max-width: 1280px;
+    margin: 0 auto;
+ }
+
+
+ .text-taka{
+    max-width: 1352px;
+    margin: 0 auto;
+ }
