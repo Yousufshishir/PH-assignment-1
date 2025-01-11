@@ -73,10 +73,93 @@ margin-bottom: 24px;
 }
 
 
+.recent-news-card-container{/* from recent news part */
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+ 
+ }
+ 
+ .recent-news-content{/* from recent news part */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 24px;
+     background-color: 
+     rgb(255, 255, 255);
+     padding: 48px 48px;
+     border-radius: 24px;
+     
+ }
 
+.satellite-content{
+    background-color: transparent;
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+.satellite-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+margin-bottom: 12px;
+background-color: 
+     rgb(255, 255, 255);
+}
 
+.aljazeera{
+    background-color: rgb(255, 255, 255) ;
+    margin-bottom: 12px;
+    width: 134px;
+    height: 40px;
 
+}
 
+.date-time{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: rgb(255, 255, 255) ;
+margin-bottom: 12px;
+}
+.date{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+background-color: rgb(255, 255, 255) ;
+
+}
+
+.time{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+background-color: rgb(255, 255, 255) ;
+
+}
+
+.recent-description{
+    background-color: rgb(255, 255, 255) ;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 32px;
+}
+
+.recent{
+    border-radius: 8px;
+
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+width: 139px;
+height: 48px;
+}
 /* --------------------------------------------------------------------------------- */ 
 /* nav styling */
 
@@ -241,4 +324,48 @@ line-height: 24px;
 
 .btn3{
     background-color: rgb(255, 194, 57);
+}
+
+
+/* ------------------------------------------------------------- */
+/* Recent news section styling */
+.recent-news{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+.recent-title{
+    padding: 3px;
+    margin-bottom: 24px;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.recent-news-description{
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.s1{/* satellite image 1 */
+
+    background-color: 
+    rgb(255, 255, 255);
+margin-right: 32px;
+}
+
+.s2{/* satellite image 2 */
+
+    background-color: 
+    rgb(255, 255, 255);
+margin-left: 32px;
+}
+.s3{/* satellite image 3 */
+
+    background-color: 
+    rgb(255, 255, 255);
+margin-right: 32px;
 }
